@@ -1,13 +1,22 @@
 import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom";
 import Home  from './components/home/Home';
-const jData = require('./data/db.json')
+import TourDetails from './components/TourDetails/TourDetails';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+const jData = require('./data/db.json');
 // import './App.css';
 
 function App() {
 
   return (
     <>
-    <Home jData={jData} />
+    <Header/>
+    <Routes>
+    <Route path='/' element={<Home jData={jData} />}></Route>
+    <Route path='/city/:id' element={<TourDetails/>}></Route>
+    </Routes>
+    <Footer/>
     </>
   )
 }
