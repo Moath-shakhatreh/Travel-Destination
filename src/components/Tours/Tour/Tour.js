@@ -1,14 +1,15 @@
-import  { useState } from 'react';
+import './Tour.css'
 function Tour (props){
     function doSomthing (){
         console.log('hi *-*')
     }
     return (
-    <a onClick={doSomthing} href="/city/:id">
-    <p>{props.name}</p>
-    <p>ID={props.keys}</p> 
-    <img src={props.image}/>
-    </a>
+     <>
+     <div id='card1'>
+      <p>{props.name}</p> 
+      <img src={props.image} alt={props.name}/>
+      </div>     
+     </>
 
     )
 }

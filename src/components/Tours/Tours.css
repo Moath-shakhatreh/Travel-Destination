@@ -1,0 +1,14 @@
+#cardC {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#mCard {
+    margin: 2%;
+    background-color:#3C3176;
+    padding: 2%;
+    width: 380px;
+    height: 400px;
+    border-radius: 10px;
+}

@@ -1,3 +1,4 @@
+import './App.css';
 import logo from './logo.svg';
 import { Routes, Route } from "react-router-dom";
 import Home  from './components/home/Home';
@@ -5,7 +6,6 @@ import TourDetails from './components/TourDetails/TourDetails';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 const jData = require('./data/db.json');
-// import './App.css';
 
 function App() {
 

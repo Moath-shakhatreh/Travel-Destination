@@ -1,0 +1,18 @@
+
+#card1 p {
+    color: aliceblue;
+    font-size: 150%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#card1 img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    margin-top: 7%;
+    object-fit: cover;
+  border-radius: 10px;
+}
