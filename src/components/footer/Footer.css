@@ -1,0 +1,9 @@
+#footer{
+    background-color: antiquewhite;
+    display: flex;
+}
+
+#footer #p2 {
+text-align: center;
+margin-left: 40%;
+}
